@@ -1,0 +1,48 @@
+/* Acá pondré mis ajustes */
+body{background: rgba(255,255,0,.1); padding-top:50px;}
+header,section,aside,footer{background:Beige}
+
+::selection{background-color:rgba(255,204,204,.9);}
+
+h1{color:LightCoral;
+  font-family: 'Lobster', cursive;
+  font-size: 3em;
+}
+
+h2{color:LightCoral;
+  font-size: 2em;}
+
+
+article{padding-bottom:1.5em;}
+article h5 {padding-bottom:1em;}
+article h5 a{padding-right:1em;}
+article figure{
+  margin-right:2em;
+  margin-bottom:1em;
+  margin-top:0.25em;
+  float:left;
+  width:40%;
+  height:auto;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+article figure{width:100%; padding-right:0; clear:both;}
+}
+article figure img{width:100%; height:auto;filter:grayscale(100%);}
+article:hover figure img{
+  filter:grayscale(0);
+}
+
+aside{padding-top:0.5em;}
+
+aside h3{
+  margin-left:0.6em;
+  color:rgba(100,100,100,1);
+  font-size:1.25em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+footer{border-top:1px solid silver; padding:1em 0; margin:3em 0 0 0;}
